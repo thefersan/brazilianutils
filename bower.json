@@ -1,0 +1,25 @@
+{
+  "name": "brazilianutils",
+  "main": "index.js",
+  "version": "0.0.56",
+  "homepage": "https://github.com/thefersan/brazilianutils",
+  "authors": [
+    "Giovanni Fersan <thefersan@gmail.com"
+  ],
+  "description": "Lots of utilities for node.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "underscore": "~1.7.0",
+    "moment": "~2.8.3",
+    "bootstrap": "~3.2.0"
+  }
+}

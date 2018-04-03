@@ -1,0 +1,58 @@
+{
+  "name": "brazilianutils",
+  "version": "0.0.1",
+  "description": "Lots of utilities for Node.js",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "grunt test --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thefersan/brazilianutils"
+  },
+  "keywords": [
+    "util",
+    "utils",
+    "utilities",
+    "swiss",
+    "army",
+    "knife",
+    "string",
+    "array",
+    "number",
+    "format",
+    "date",
+    "crypto",
+    "cryptography",
+    "controller",
+    "fs",
+    "file system"
+  ],
+  "author": "Giovanni Fersan <thefersan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "alltested": "0.0.3",
+    "glob": "^4.0.6",
+    "grunt": "^0.4.5",
+    "grunt-contrib-htmlmin": "^0.3.0",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "highlight.js": "^8.2.0",
+    "js-beautify": "^1.5.1",
+    "marked": "^0.3.2",
+    "nodeunit": "~0.8.0",
+    "rewire": "^2.0.0",
+    "semver": "~2.2.1",
+    "underscore": "^1.7.0"
+  },
+  "contributors": [
+    {
+      "name": "Giovanni Fersan",
+      "email": "thefersan@gmail.com"
+    }
+  ],
+  "dependencies": {}
+}
