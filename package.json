@@ -45,7 +45,7 @@
     "marked": "^0.3.2",
     "nodeunit": "~0.8.0",
     "rewire": "^2.0.0",
-    "semver": "~2.2.1",
+    "semver": "~> 4.3.2",
     "underscore": "^1.7.0"
   },
   "contributors": [
