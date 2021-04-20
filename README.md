@@ -1,4 +1,7 @@
 brazilianutils
+[![Build Status](https://img.shields.io/github/stars/brazilianutils.svg)](https://github.com/brazilianutils)
+[![Latest Stable Version](https://img.shields.io/npm/v/brazilianutils.svg)](https://www.npmjs.com/package/brazilianutils)
+[![NPM Downloads](https://img.shields.io/npm/dt/brazilianutils.svg)](https://www.npmjs.com/package/brazilianutils)
 =====
 
 
