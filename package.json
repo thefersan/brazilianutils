@@ -1,6 +1,6 @@
 {
   "name": "brazilianutils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lots of utilities for Node.js",
   "main": "index.js",
   "directories": {
@@ -32,7 +32,7 @@
     "file system"
   ],
   "author": "Giovanni Fersan <giovannifersan@icloud.com>",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "alltested": "0.0.3",
     "glob": "^4.0.6",
