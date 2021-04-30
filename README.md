@@ -168,4 +168,4 @@ Project Link: [https://github.com/giovannifersan/brazilianutils](https://github.
 [issues-url]: https://github.com/giovannifersan/brazilianutils/issues
 [license-shield]: https://img.shields.io/github/license/giovannifersan/brazilianutils.svg?style=for-the-badge
 [license-url]: https://github.com/giovannifersan/brazilianutils/blob/master/LICENSE.txt
-[download-url]: https://img.shields.io/github/downloads/giovannifersan/brazilianutils/total?style=for-the-badge
+[download-url]: https://img.shields.io/npm/dt/brazilianutils?style=for-the-badge
