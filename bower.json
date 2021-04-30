@@ -1,14 +1,14 @@
 {
   "name": "brazilianutils",
   "main": "index.js",
-  "version": "0.0.56",
-  "homepage": "https://github.com/thefersan/brazilianutils",
+  "version": "0.0.3",
+  "homepage": "https://github.com/giovannifersan/brazilianutils",
   "authors": [
-    "Giovanni Fersan <thefersan@gmail.com"
+    "Giovanni Fersan <giovannifersan@icloud.com"
   ],
   "description": "Lots of utilities for node.js",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
