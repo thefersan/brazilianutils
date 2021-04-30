@@ -6,12 +6,7 @@ var _ = require('underscore'),
     glob = require('glob'),
     marked = require('marked'),
     hl = require('highlight.js'),
-    beautify = require('js-beautify'),
     pack = require('./package.json');
-
-/* jshint ignore:start */
-beautify = beautify.js_beautify
-/* jshint ignore:end */
 
 module.exports = function(grunt) {
 
@@ -70,7 +65,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
     grunt.registerTask('test', [
-        'jshint',
         'nodeunit'
     ]);
 
@@ -122,7 +116,6 @@ module.exports = function(grunt) {
                 name: module.__name,
                 description: module.__description || '',
                 hl: hl.highlight,
-                beautify: beautify,
                 tests: tests
             });
         });
@@ -157,7 +150,7 @@ module.exports = function(grunt) {
             pack: pack,
             index: index,
             body: body,
-            license: marked(fs.readFileSync('./LICENSE.md').toString())
+            license: marked(fs.readFileSync('./license.txt').toString())
         }));
     });
 

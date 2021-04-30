@@ -360,11 +360,11 @@ with(stringUtils) {
 
         'parseFormattedEmailAddress': {
             'Check that parses correctly': function(test) {
-                var email = 'Renato Gama <renatogama@example.com>',
+                var email = 'Giovanni Fersan <giovannifersan@example.com>',
                     data = parseFormattedEmailAddress(email);
 
-                test.equal(data.name, 'Renato Gama');
-                test.equal(data.email, 'renatogama@example.com');
+                test.equal(data.name, 'Giovanni Fersan');
+                test.equal(data.email, 'giovannifersan@example.com');
                 test.done();
             },
 

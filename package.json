@@ -1,6 +1,6 @@
 {
   "name": "brazilianutils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lots of utilities for Node.js",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/giovannifersan/brazilianutils"
+    "url": "https://github.com/giovannifersan/brazilianutils.git"
   },
   "keywords": [
     "util",
@@ -32,7 +32,7 @@
     "file system"
   ],
   "author": "Giovanni Fersan <giovannifersan@icloud.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "alltested": "^0.0.3",
     "glob": "^7.1.6",
@@ -41,7 +41,6 @@
     "grunt-contrib-jshint": "^3.0.0",
     "grunt-contrib-nodeunit": "^3.0.0",
     "highlight.js": "^10.7.2",
-    "js-beautify": "^1.13.13",
     "js-yaml": "^4.1.0",
     "marked": "^2.0.3",
     "nodeunit": "^0.11.3",
